@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
       'https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg',
       new Date(),
       0,
-      false
+      false,
     )
 
     this.thirdSnap = new FaceSnap(
@@ -43,6 +43,8 @@ export class AppComponent implements OnInit {
       0,
       false
     )
+
+    this.secondSnap.setLocation('à la montagne')
   }
 }
 
